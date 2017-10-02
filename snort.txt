@@ -1,0 +1,5 @@
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN nmap XMAS"; flow:stateless; flags:FPU,12;sid:90000001;)
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"NULL Scan"; flags: 0;sid:9000002;)
+alert ip $EXTERNAL_NET any -> $HOME_NET any (msg:"INDICATOR-SHELLCODE"; content:"CCCCCCCCCCCCCCCCCCCCCCCC"; sid:9000003;)
+
+sudo snort -A console -q -i ens33 -u snort -g snort -c /etc/snort/snort.conf

